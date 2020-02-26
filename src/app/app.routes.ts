@@ -7,6 +7,7 @@ import {LoginComponent} from './login/login.component';
 import {ProgressComponent} from './pages/progress/progress.component';
 import {GraficaUnoComponent} from './pages/grafica-uno/grafica-uno.component';
 import {PagenotfoundComponent} from './pages/pagenotfound/pagenotfound.component';
+import {RegisterComponent} from './login/register.component';
 
 const appRoutes: Routes = [
   {
@@ -19,6 +20,7 @@ const appRoutes: Routes = [
       { path: '', redirectTo: '/dashboard', pathMatch: 'full'}
     ]
   },
+  { path: 'register', component: RegisterComponent},
   { path: 'login', component: LoginComponent},
   { path: '**', component: PagenotfoundComponent},
 ];
