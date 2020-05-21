@@ -12,6 +12,8 @@ import { AppComponent } from './app.component';
 import { RegisterComponent } from './login/register.component';
 import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
+//Services
+import {SettingsService} from "./services/settings.service";
 
 
 
@@ -28,7 +30,7 @@ import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.compone
     PagesModule,
     FormsModule
   ],
-  providers: [],
+  providers: [SettingsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

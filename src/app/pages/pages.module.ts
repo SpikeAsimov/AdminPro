@@ -7,6 +7,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { GraficaUnoComponent } from './grafica-uno/grafica-uno.component';
 import {IncrementadorComponent} from "../components/incrementador/incrementador.component";
 import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 //Modulos
 import { SharedModule } from '../shared/shared.module';
 import {FormsModule} from "@angular/forms";
@@ -21,7 +22,8 @@ import { PAGES_ROUTES } from './pages.routes';
 	    ProgressComponent,
 	    GraficaUnoComponent,
       IncrementadorComponent,
-      GraficaDonaComponent
+      GraficaDonaComponent,
+      AccountSettingsComponent
 	],
 	exports: [
 		DashboardComponent,
