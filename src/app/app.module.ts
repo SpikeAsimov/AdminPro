@@ -13,7 +13,7 @@ import { RegisterComponent } from './login/register.component';
 import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
 //Services
-import {SettingsService} from "./services/settings.service";
+import {ServicesModule} from "./services/services.module";
 
 
 
@@ -28,9 +28,10 @@ import {SettingsService} from "./services/settings.service";
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServicesModule
   ],
-  providers: [SettingsService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
