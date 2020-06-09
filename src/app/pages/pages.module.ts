@@ -14,6 +14,8 @@ import {FormsModule} from "@angular/forms";
 import {ChartsModule} from "ng2-charts";
 //Rutas
 import { PAGES_ROUTES } from './pages.routes';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
 	declarations: [
@@ -23,7 +25,9 @@ import { PAGES_ROUTES } from './pages.routes';
 	    GraficaUnoComponent,
       IncrementadorComponent,
       GraficaDonaComponent,
-      AccountSettingsComponent
+      AccountSettingsComponent,
+      PromesasComponent,
+      RxjsComponent
 	],
 	exports: [
 		DashboardComponent,
